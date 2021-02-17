@@ -16,11 +16,9 @@ RUN pip3 install --no-cache-dir jupyter
 RUN pip3 install --no-cache-dir bash_kernel
 RUN python3 -m bash_kernel.install
 
-#RUN useradd -ms /bin/bash dog
-RUN adduser -D -g '' dog
-
-USER dog
-WORKDIR /home/dog
+RUN adduser -D -g '' jupyter
+USER jupyter
+WORKDIR /home/jupyter
 
 EXPOSE 8888
 
