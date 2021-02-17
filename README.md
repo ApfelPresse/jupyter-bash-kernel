@@ -7,4 +7,4 @@
 	docker run -it -p 9000:8888 jupyter
 	
 ## Dockerhub
-	
+	docker run -it -p 9000:8888 apfelpresse/jupyter-bash-kernel
