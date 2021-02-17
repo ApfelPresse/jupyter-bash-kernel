@@ -1,4 +1,4 @@
-#Simple Jupyter Notebook with Bash Kernel
+# Simple Jupyter Notebook with Bash Kernel
 
 ## Manually
 	git clone https://github.com/ApfelPresse/jupyter-bash-kernel.git
